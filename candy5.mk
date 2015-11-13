@@ -7,6 +7,9 @@ $(call inherit-product, vendor/candy5/config/common_full_phone.mk)
 $(call inherit-product, vendor/candy5/config/nfc_enhanced.mk)
 
 PRODUCT_NAME := candy5_himaul
+BOARD_VENDOR := htc
+TARGET_VENDOR := htc
+PRODUCT_DEVICE := himaul
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="htc_himaulatt" \
