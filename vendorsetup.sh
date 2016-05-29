@@ -1,1 +1,2 @@
-add_lunch_combo candy_himaul-userdebug
+add_lunch_combo pac_himaul-userdebug
+add_lunch_combo himaul-userdebug

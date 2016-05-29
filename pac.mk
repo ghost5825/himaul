@@ -1,12 +1,12 @@
-$(call inherit-product, device/htc/himaul/full_himaul.mk)
+$(call inherit-product, device/htc/himaul/himaul.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+$(call inherit-product, vendor/pac/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/pac/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := candy_himaul
+PRODUCT_NAME := pac_himaul
 BOARD_VENDOR := htc
 TARGET_VENDOR := htc
 PRODUCT_DEVICE := himaul
