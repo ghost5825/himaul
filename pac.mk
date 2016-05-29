@@ -1,4 +1,4 @@
-$(call inherit-product, device/htc/himaul/himaul.mk)
+$(call inherit-product, device/htc/himaul/full_himaul.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/pac/config/common_full_phone.mk)
